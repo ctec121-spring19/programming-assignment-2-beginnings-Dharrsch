@@ -36,6 +36,7 @@ def main():
 
     # create variables and set values for:
     # location
+    location = "SHL 125"
 
     # time
 

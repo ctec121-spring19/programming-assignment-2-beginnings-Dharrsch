@@ -36,7 +36,6 @@ def main():
 
     # create variables and set values for:
     # location
-    location = "SHL 125"
 
     # time
 
@@ -51,18 +50,22 @@ def main():
     
     # print section heading - replace <name> with your name - no angle brackets. 
     # Ex: Bill's Output
-    print("<name>'s Output")
+       print("David Output")
     # print the title - copy the code above
+    classTitle = "Intro to Programming and Problem Solving"
 
+    print()
+    print("David's Output")
+    print("\tTitle:\t\t", classTitle, sep="")
     # print the location
-
+    print("\tLocation:\t", "SHL 125", sep="")
     # print the time
-
+    print("\tTime:\t\t", "MW 10:30AM-12:50PM", sep="")
     # print the quarter
-
+    print("\tQuarter:\t", "Spring 2019", sep="")
     # print item/section
-
+    print("\tItem/Section:\t", "Item 6485, Section A", sep="")
     # print a blank line
-
+    print()
 
 main()
